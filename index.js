@@ -1,6 +1,6 @@
-const express = require('express');
-const multer = require('multer');
-const fetch = require('node-fetch');
+import express from 'express';
+import multer from 'multer';
+import fetch from 'node-fetch';
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
